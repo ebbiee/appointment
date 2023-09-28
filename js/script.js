@@ -16,7 +16,6 @@ $(document).ready(function() {
 
     $(".display").fadeIn();
     $(".center").fadeOut();
-    $("h3").fadeOut()
-    $("h1").fadeOut()
+    
   })
 })
