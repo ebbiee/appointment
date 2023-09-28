@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="./js/script.js"></script>
+  <title>Appointment form</title>
+</head>
+<body>
+ <div class="container">
+    <h1>Appointment form</h1>
+    <h3>Please fill in the form for your Appointment</h3>
+    <div class="center">
+      <form action="" id="formOne" class="col-md-4 border border-2 rounded p-4 my-5">
+        <div class="input-group mb-3">
+          <span class="input-group-text">First and last name</span>
+          <input type="text" aria-label="First name" class="form-control" id="name">
+        </div> 
+        
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Organisation's name" aria-label="Organisation's name" aria-describedby="basic-addon2" id="cname">
+          <span class="input-group-text" id="basic-addon2">e.g IBN.org</span>
+        </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon3">Purpose of Appointment</span>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+          </div>
+        
+        <div class="input-group mb-3">
+          <label for="Date of Appointment"></label>
+          <input type="date" class="form-control" id="date">
+          <span class="input-group-text">dd/mm/yy</span>
+        </div>
+        
+        <div class="input-group mb-3">
+          <span class="input-group-text">Time of Appointment</span>
+          <input type="time" class="form-control" aria-label="Server" id="time">
+        </div>
+        
+        <button type="submit" class="btn btn-success" id="centdis">Submit</button>
+      </form>
+     
+    </div>
+    <div class="display">
+      <p><h2><span class="fullname"></span> Your appointment slated for <span class="date"></span> by <span class="time"></span> has been successfully booked</h2></p>
+     </div>
+  </div>
+  
+</body>
+</html>
