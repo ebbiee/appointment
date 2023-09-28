@@ -1,0 +1,13 @@
+#centdis{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display{
+  display: none;
+}
